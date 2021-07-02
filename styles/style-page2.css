@@ -1,55 +1,98 @@
 /* experience-text */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 55px;
+    color: white;
 }
 
 /* experience-detail */
 .experience-1{
-    border-left: 6px solid red;
-    background-color: lightgrey;
+    border-left: 10px solid #668D3C;
+    background-color: #c2d1aa;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 60px;
+    padding-left: 400px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 18px
+  }
+
+.experience-1 h3{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+  .experience-2{
+    border-left: 10px solid #668D3C;
+    background-color: #c2d1aa;
     margin-right: 200px;
     margin-left: 200px;
     margin-top: 100px;
-    padding-left: 150px;
+    padding-left: 400px;
     padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 25px
   }
-
-  .experience-2{
-    border-left: 6px solid red;
-    background-color: lightgrey;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 70px;
-    padding-left: 150px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .experience-2 h3{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
   }
 
   .experience-3{
-    border-left: 6px solid red;
-    background-color: lightgrey;
+    border-left: 10px solid #668D3C;
+    background-color: #c2d1aa;
     margin-right: 200px;
     margin-left: 200px;
-    margin-top: 70px;
-    padding-left: 150px;
+    margin-top: 100px;
+    padding-left: 400px;
     padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 25px
+  }
+  .experience-3 h3{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
   }
 
   .experience-4{
-    border-left: 6px solid red;
-    background-color: lightgrey;
+    border-left: 10px solid #668D3C;
+    background-color: #c2d1aa;
     margin-right: 200px;
     margin-left: 200px;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 200px;
-    padding-left: 150px;
+    padding-left: 400px;
     padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 25px
+  }
+  .experience-4 h3{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
   }
