@@ -7,15 +7,14 @@
 .navbar{
     background-color:white;
     /* position: fixed; */
-    width: 100%;
-    top:0;
-    
+    /* width: 100%;
+    top:0; */
 }
+
 
 .bg1{
     /* background-color:rgb(211, 192, 163); */
     background-color: rgb(189, 209, 197);
-    
 }
 
 .font1{
