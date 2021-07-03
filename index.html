@@ -16,14 +16,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg1">
+<body class="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
 
   <!-- navbar -->
   <div class="navbar">
     <div class="border-b-2">
       <div class="flex justify-between max-w-5xl mx-auto">
         <p class="font1 text-3xl tracking-widest py-2">Salmonstagram</p>
-        <div class="flex space-x-12 font2 font-color text-xl tracking-widest py-3">
+        <div class="flex space-x-12 font2 font-color text-xl tracking-widest py-3 pointnav">
           <a href="index.html">Home</a>
           <a href="p2experience.html">Experience</a>
           <a href="p3contact.html">Contact</a>
@@ -34,61 +34,67 @@
 
 
   <!-- about me -->
-  <div class="py-4">
-      <div class="max-w-screen-lg mx-auto">
-        <h2 class="title tracking-widest"><span>A</span>bout me</h2>
-        <h1 class="name tracking-wider">Lapasrada Kumjulla</h1>
-        <p class="detail-me tracking-wider font-light">Hi! my name is Lapasrada. You can call me Ploy! I study
-          Computer engineering at faculty of engineering
-          ,Chiang Mai university. I love Mathermatic and Programming.
-          I'm interested about application development and AI.</p>
-      </div>
+  <div class="flex m-10 bg-white rounded-3xl shadow-2xl border-4 border-white">
+    <div class="max-w-screen-lg mx-auto pl-14 pr-5">
+      <h2 class="title tracking-widest "><span>A</span>bout me</h2>
+      <h1 class="name tracking-wider">Lapasrada Kumjulla</h1>
+      <p class="detail-me tracking-wider font-light">Hi! my name is Lapasrada. You can call me Ploy! I study
+        Computer engineering at faculty of engineering
+        ,Chiang Mai university. I love Mathermatic and Programming.
+        I'm interested about application development and AI.</p>
     </div>
-    <div class="containimage max-w-screen-lg mx-auto">
-      <img src="image/me.jpg" class="rounded-2xl shadow-2xl max-w-2xl">
-    </div>
+    <div class="containimage max-w-screen-lg  bg-white mr-10 mb-12">
+      <img src="image/me.jpg" class="rounded-3xl shadow-2xl max-w-2xl">
+    </div>  
+    <!-- <div class="containimage max-w-screen-lg mx-auto">
+      <img src="image/me.jpg" class="rounded-3xl shadow-2xl max-w-2xl">
+    </div> -->
   </div>
 
   <!-- my skill -->
   <section class="part2" id="part2">
-    <div class="skill tracking-widest max-w-screen-lg mx-auto">
-      <h2 class="titleSkill pt-20"><u>My skill</u></h2>
-    </div>
-
-    <div class="detail-skill">
-      <div class="box">
-        <div class="skillpicbox">
-          <img src="image/programming.png" class="rounded-xl">
+    <div class="ml-32 mr-32 shadow-2xl mb-40 border-8 border-white rounded-3xl">
+      <div class="bg-white tracking-widest border-8 border-white titleSkill text-center">
+        -My skill-
+        <!-- <h2 class="titleSkill shadow-xl mt-6 mb-6 colorbg">My skill</h2> -->
+      </div>
+  
+      <div class="detail-skill">
+        <div class="box">
+          <div class="skillpicbox">
+            <img src="image/programming.png" class="rounded-xl">
+          </div>
+          <div>
+            <h3 class="headskill border-b-4">Programming</h3>
+            <p class="scriptskill">I love coding. I started to code first-tiime when I study here, that time I tried to
+              practice coding hardly because it's difficult for me. But now ,I understand and I will keep praticing by
+              myself.</p>
+          </div>
         </div>
-        <div>
-          <h3 class="headskill">Programming</h3>
-          <p class="scriptskill">I love coding. I started to code first-tiime when I study here, that time I tried to
-            practice coding hardly because it's difficult for me. But now ,I understand and I will keep praticing by
-            myself.</p>
+        <div class="box">
+          <div class="skillpicbox">
+            <img src="image/math.jpg" class="rounded-xl">
+          </div>
+          <div>
+            <h3 class="headskill border-b-4">Mathermatics</h3>
+            <p class="scriptskill">I love mathermatic so much. I study Kumon where teaches about calculating math quickly.
+              And, I think math that use understanding not memory.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="skillpicbox">
+            <img src="image/basketball.jpg" class="rounded-xl">
+          </div>
+          <div">
+            <h3 class="headskill border-b-4">Basketball</h3>
+            <p class="scriptskill">I play basketball. I played it when I was Mathayom3. That time, I get second runner-up.
+            </p>
         </div>
       </div>
-      <div class="box">
-        <div class="skillpicbox">
-          <img src="image/math.jpg" class="rounded-xl">
-        </div>
-        <div>
-          <h3 class="headskill">Mathermatics</h3>
-          <p class="scriptskill">I love mathermatic so much. I study Kumon where teaches about calculating math quickly.
-            And, I think math that use understanding not memory.</p>
-        </div>
       </div>
-      <div class="box">
-        <div class="skillpicbox">
-          <img src="image/basketball.jpg" class="rounded-xl">
-        </div>
-        <div">
-          <h3 class="headskill">Basketball</h3>
-          <p class="scriptskill">I play basketball. I played it when I was Mathayom3. That time, I get second runner-up.
-          </p>
-      </div>
-    </div>
     </div>
   </section>
 
 </body>
+
 </html>
