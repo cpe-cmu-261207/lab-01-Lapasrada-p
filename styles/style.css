@@ -7,14 +7,12 @@
 .navbar{
     background-color:white;
     padding: 0px;
-
 }
 
 .bg1{
-    /* background-color:rgb(248, 223, 191); */
-    background-color:rgb(211, 192, 163);
-    /* padding: 20px; */
-
+    /* background-color:rgb(211, 192, 163); */
+    background-color: rgb(189, 209, 197);
+    
 }
 
 .bg-pic{
@@ -29,70 +27,146 @@
     font-family: 'Kirang Haerang', cursive;
 }
 
-.font-brown{
-    color:rgb(116, 79, 0);
+.font-color{
+    /* color:rgb(116, 79, 0); */
+    color: rgb(115, 158, 132);
 }
 
-.header-home{
-    width: 80%;
-    height: 70%;
-    top: 25%;
-    left: 150px;
-    position: absolute;
-    color: #fff;
+.content-box{
+    /* margin-right: 500px; */
+    padding-right:100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box p{
+    margin-right:100px;
+}
+
+.title{
+    color: rgb(120, 90, 46);
+    opacity: .7;
+    font-weight: 300;
+    font-size: 40px;
+    padding-left: 150px;
+    /* padding-top: 10px */
+}
+
+.title span{
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.name{
+    margin-left: 200px;
+    font-size: 60px;
+    padding-top: 30px;
+    color:rgb(77, 67, 34);
+    font-weight: 400;
 }
 
 .detail-me{
-    width: 50%;
-    float: left;
-    font-size: 25px;
-} 
-
-.detail-me h1{
-    font-size: 60px;
-    font-weight: 100;
-    width: 640px;
-    position: relative;
-    padding-left: 70px;
-    padding-bottom: 25px
-   
-}
-.detail-me p{
-    font-size: 25px;
-    width: 550px;
-    position: relative;
-    /* padding:30px 0 30px 40px; */
-    padding-left: 50px;
-    padding-bottom: 25px
-    line-height: 35px;
-    color: #919191;
-}
-
-.pic-home-me{
-    height: 50%;
-    position: absolute;
-    top: 25%;
-    /* right: 200px; */
-    margin-left: 800px;
-    float: right;
-    /* display: flex;
-    flex-wrap: wrap; */
-}
-
-.header-skill{
-    width: 80%;
-    height: 70%;
-    top: 90%;
-    left: 150px;
-    position: absolute;
-    color: #fff;
-}
-.detail-skill{
-    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    margin-left: 150px ;
+    margin-top: 40px;
+    font-size:24px;
+    width: 70%;
     font-weight:500;
-    width: 100%;
+    color:rgb(11, 87, 33);
+}
+
+.content .inside .boxpic{
+    
     position: relative;
-    margin:30px 0 0px 40px;
-    line-height: 100px;
-    color: #919191;
-} 
+    width: 10% ;
+    /* min-height: 300px; */
+    /* height: 100%; */
+}
+
+.content .inside .boxpic img{
+    position:absolute;
+    top:0 ;
+    left:0 ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headskill{
+    margin-top: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 29px;
+    color: rgb(204, 121, 66)
+}
+
+.scriptskill{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(134, 115, 53)
+}
+.skill{
+    margin-top:130px;
+    margin-left:250px;
+    /* text-align: left; */
+}
+
+
+.titleSkill{
+    font-family: 'Satisfy', cursive;
+    color:rgb(116, 79, 0);
+    font-size: 35px;
+    text-transform:capitalize;
+    line-height: 3rem;
+}
+
+.part2 .detail-skill{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+.part2 .detail-skill .box{
+    width: 300px;
+    margin: 30px;
+}
+
+.part2 .detail-skill .box .skillpicbox{
+   position:relative;
+   width: 100%;
+   height: 300px;
+}    
+
+.part2 .detail-skill .box .skillpicbox img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.part2 .detail-skill .box {
+    padding: 15px 0 5px;
+}
+
+.part2 .detail-skill .box h3{
+    font-weight: 100;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.part2 .detail-skill .box p{
+    font-weight: 100;
+    /* text-align: center; */
+    padding-top:10px;
+    padding-left: 20px;
+}
