@@ -16,11 +16,12 @@ footer{
     background-color:white;
     height: auto;
     width: 100vw;
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
 }
 
 .footer-content{
+    font-family: 'Hind Siliguri', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,30 +32,35 @@ footer{
 .footer-content h3{
     font-family: 'Satisfy', cursive;
     color:rgb(116, 79, 0);
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 400;
     text-transform:capitalize;
     line-height: 3rem;
 }
 
 .footer-content p{
     color:rgb(124, 85, 0);
-    font-weight: 300;
+    font-weight: 400;
     max-width: 500px;
-    margin:10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    margin:2px auto;
+    line-height: 25px;
+    font-size: 15px;
 }
 
 .socials{
+    font-family: 'Hind Siliguri', sans-serif;
     color:rgb(116, 79, 0);
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
 }
+
 .socials li{
     margin: 0 10 px;
+    font-size: 15px;
 }
 
 .socials a{
@@ -63,19 +69,19 @@ footer{
 }
 
 .socials a i{
-    /* font-family: 'Yomogi', cursive; */
-    font-size: 1.1rem;
+    font-size: 15px;
     transition: color .4s ease;
+    line-height: 25px;
 }
 
 .socials a:hover i{
-    color: aqua;
+    color: rgb(250, 131, 34);
 }
 
 .footer-bottom{
-    background: rgb(255, 216, 143);
+    background: rgb(179, 142, 95);
     width: 100vw;
-    padding: 5px 0;
+    padding: 7px 0;
     text-align: center;
 }
 
@@ -87,8 +93,7 @@ footer{
 
 .footer-bottom span{
     text-transform: uppercase;
-    opacity: .4;
-    font-weight:100 ;
-
+    opacity: .9;
+    font-weight:200 ;
 }
 
