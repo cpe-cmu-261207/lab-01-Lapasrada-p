@@ -66,6 +66,7 @@ footer{
 .socials a{
     text-decoration: none;
     color:rgb(116, 79, 0);
+    font-weight: 700;
 }
 
 .socials a i{
@@ -75,11 +76,11 @@ footer{
 }
 
 .socials a:hover i{
-    color: rgb(250, 131, 34);
+    color: rgb(111, 181, 96);
 }
 
 .footer-bottom{
-    background: rgb(179, 142, 95);
+    background: rgb(226, 217, 185);
     width: 100vw;
     padding: 7px 0;
     text-align: center;
