@@ -41,3 +41,11 @@ h2 {
 .clip-color a:hover i b{
   color: rgb(200, 154, 219);
 }
+
+.box{
+  transition: 0.5s ;
+}
+
+.box:hover{
+  transform: scale(1.1);
+}

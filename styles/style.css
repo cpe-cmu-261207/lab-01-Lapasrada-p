@@ -25,6 +25,42 @@
 .bg1{
     background-color: rgb(189, 209, 197);
 } */
+/* .hover-fx {
+    font-size: 36px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    line-height: 84px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  } */
+.hover-box{
+    transition: 0.5s ;
+}
+  
+.hover-box:hover{
+    transform: scale(1.05);
+}  
+.hover-text{
+    transition: 0.5s ;
+}
+  
+.hover-text:hover{
+    transform: scale(1.2);
+}
+.hover-fx{
+    transition: 0.5s ;
+}
+  
+.hover-fx:hover{
+    transform: scale(1.1);
+}
 
 .font1{
     font-family: 'Caveat', cursive;
