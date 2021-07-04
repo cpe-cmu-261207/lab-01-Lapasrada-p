@@ -30,6 +30,7 @@
 .hover-text:hover{
     transform: scale(1.2);
 }
+
 .hover-fx{
     transition: 0.5s ;
 }
