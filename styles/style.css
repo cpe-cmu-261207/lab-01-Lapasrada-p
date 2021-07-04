@@ -6,12 +6,6 @@
 
 .navbar{
     background-color:white;
-    /* background-color: rgb(248, 248, 234);
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-     */
 }
 
 .pointnav a{
@@ -21,25 +15,7 @@
 .pointnav a:hover {
     color:rgb(116, 79, 0);
 }
-/* 
-.bg1{
-    background-color: rgb(189, 209, 197);
-} */
-/* .hover-fx {
-    font-size: 36px;
-    display: inline-block;
-    cursor: pointer;
-    margin: 15px;
-    width: 80px;
-    height: 80px;
-    line-height: 84px;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: 300ms;
-  } */
+
 .hover-box{
     transition: 0.5s ;
 }
@@ -71,7 +47,6 @@
 }
 
 .font-color{
-    /* color:rgb(116, 79, 0); */
     color: rgb(115, 158, 132);
 }
 
@@ -81,7 +56,6 @@
     opacity: .7;
     font-weight: 300;
     font-size: 40px;
-    /* padding-left: 100px; */
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
@@ -94,9 +68,7 @@
 }
 
 .name{
-    /* margin-left: 180px; */
     font-size: 60px;
-    /* padding-top: 30px; */
     color:rgb(77, 67, 34);
     opacity: .8;
     font-weight: 400;
@@ -105,7 +77,6 @@
 
 .detail-me{
     font-family: 'Jost', sans-serif;
-    /* margin-left: 150px ; */
     margin-top: 20px;
     font-size:27px;
     width: 100%;
@@ -127,14 +98,11 @@
     background-color: rgb(173, 162, 126);
 }
 .skill{
-    /* margin-top:130px; */
-    /* margin-left:250px; */
     text-align: left;
 }
 
 .titleSkill{
     font-family: 'Satisfy', cursive;
-    /* color:rgb(116, 79, 0); */
     color: rgb(120, 90, 46);
     font-size: 35px;
     text-transform:capitalize;
